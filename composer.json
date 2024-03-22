@@ -1,0 +1,29 @@
+{
+    "name": "arhitov/laravel-package-helpers",
+    "description": "Helper classes for packages",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "helpers",
+        "packages"
+    ],
+    "homepage": "https://github.com/arhitov/php-package-helpers",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^v10|^v11",
+        "illuminate/contracts": "^v10|^v11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arhitov\\PackageHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "clgsru",
+            "email": "clgsru@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "prefer-stable": true
+}
