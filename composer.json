@@ -7,7 +7,7 @@
         "helpers",
         "packages"
     ],
-    "homepage": "https://github.com/arhitov/php-package-helpers",
+    "homepage": "https://github.com/arhitov/laravel-package-helpers",
     "require": {
         "php": "^8.2",
         "illuminate/support": "^v10|^v11",
