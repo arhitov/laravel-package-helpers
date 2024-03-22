@@ -5,7 +5,7 @@ Laravel Package Helpers
 
 Helper classes for packages
 
-## Migration
+## Publishes
 - publishes migration file
 - publishes config file
 
