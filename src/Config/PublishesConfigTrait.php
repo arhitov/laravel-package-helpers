@@ -10,10 +10,10 @@ trait PublishesConfigTrait
      * Searches migrations and publishes them as assets.
      *
      * @param string $directory
-     *
+     * @param string $tabName
      * @return void
      */
-    protected function registerConfig(string $directory): void
+    protected function registerConfig(string $directory, string $tabName = 'config'): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes(
@@ -24,7 +24,7 @@ trait PublishesConfigTrait
                         }
                     })()
                 ),
-                'config'
+                $tabName
             );
         }
     }

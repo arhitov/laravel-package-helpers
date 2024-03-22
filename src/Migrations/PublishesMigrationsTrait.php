@@ -12,11 +12,10 @@ trait PublishesMigrationsTrait
      * Searches migrations and publishes them as assets.
      *
      * @param string $directory
-     *
+     * @param string $tabName
      * @return void
-     * @throws BindingResolutionException
      */
-    protected function registerMigrations(string $directory): void
+    protected function registerMigrations(string $directory, string $tabName = 'migrations'): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes(
@@ -29,7 +28,7 @@ trait PublishesMigrationsTrait
                         }
                     })()
                 ),
-                'migrations'
+                $tabName
             );
         }
     }
