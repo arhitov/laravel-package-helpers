@@ -7,6 +7,7 @@ Helper classes for packages
 
 ## Migration
 - publishes migration file
+- publishes config file
 
 ## Sponsor my work!
 If you think this package helped you in any way, you can sponsor me! I am a free developer, so your help will be very helpful to me. :blush:
