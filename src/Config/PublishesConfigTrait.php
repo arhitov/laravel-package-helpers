@@ -13,7 +13,7 @@ trait PublishesConfigTrait
      *
      * @return void
      */
-    protected function registerConfigs(string $directory): void
+    protected function registerConfig(string $directory): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes(
