@@ -3,7 +3,6 @@
 namespace Arhitov\PackageHelpers\Migrations;
 
 use Generator;
-use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Str;
 
 trait PublishesMigrationsTrait
