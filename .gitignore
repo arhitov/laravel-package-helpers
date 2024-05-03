@@ -3,3 +3,4 @@
 .env
 .env.backup
 .env.production
+composer.lock
