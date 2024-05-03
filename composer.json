@@ -1,7 +1,7 @@
 {
     "name": "arhitov/laravel-package-helpers",
     "description": "Helper classes for packages",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -25,6 +25,6 @@
             "email": "clgsru@gmail.com"
         }
     ],
-    "minimum-stability": "RC",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
